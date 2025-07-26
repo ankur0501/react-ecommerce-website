@@ -1,0 +1,22 @@
+.home-wrapper {
+  font-family: "Segoe UI", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section-title {
+  background: linear-gradient(to right, #ff6f61, #ffb88c);
+  color: #fff;
+  padding: 12px 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.suggestions-wrapper {
+  padding: 16px;
+  background-color: #fff;
+}

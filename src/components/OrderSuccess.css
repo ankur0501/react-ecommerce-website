@@ -1,0 +1,55 @@
+.order-success {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #e0f7fa, #fce4ec);
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.success-icon {
+  font-size: 60px;
+  color: #4caf50;
+  animation: pop 0.6s ease-out forwards;
+  margin-bottom: 16px;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+h1 {
+  margin: 0;
+  color: #2e7d32;
+  font-size: 32px;
+}
+
+p {
+  margin: 12px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+go-to-home {
+  padding: 10px 24px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+go-to-home:hover {
+  background-color: #1b5e20;
+}

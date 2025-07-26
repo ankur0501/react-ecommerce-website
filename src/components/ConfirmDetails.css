@@ -1,0 +1,36 @@
+.details-container {
+  max-width: 600px;
+  margin: 24px auto;
+  padding: 12px;
+}
+
+.card {
+  background-color: #fff9f7;
+  padding: 16px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: #ff6f61;
+  font-weight: 600;
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.label {
+  min-width: 120px;
+  font-weight: 500;
+  color: #555;
+}
+
+.value {
+  color: #333;
+}
