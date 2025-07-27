@@ -10,16 +10,19 @@ export const Home = () => {
   if (loading) {
     return (
       <>
-        <div className="banner"></div>
         <Loading text="Fetching top products" />
       </>
     );
   }
 
   return (
-    <div className="home-wrapper">
-      <div className="banner"></div>
-      <h2 className="section-title">🔥 Top Products</h2>
+    <div className="home-wrapper glowwave-bg">
+      <div className="sale-blaster">
+        <h3 className="sale-text">🎉 Limited Time Big Sale!</h3>
+        <p className="sale-subtext">
+          Up to <span className="sale-percent">50% OFF</span> on top categories
+        </p>
+      </div>
       <div className="suggestions-wrapper">
         <ProductSuggestions products={products} />
       </div>

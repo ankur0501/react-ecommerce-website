@@ -3,12 +3,21 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 1rem 0;
+  gap: 1rem;
+  scrollbar-width: none; /* Firefox */
+}
+.suggestions-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
 
 .suggestion-item {
-  flex: 0 0 auto;
-  min-width: 240px; /* Set fixed card width */
-  max-width: 100%;
   scroll-snap-align: start;
-  box-sizing: border-box;
+  min-width: 250px;
+  flex: 0 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
 }

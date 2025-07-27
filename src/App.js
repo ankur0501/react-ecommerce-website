@@ -50,7 +50,6 @@ const App = () => {
       <Router>
         <CartProvider value={value}>
           <Navbar />
-          <Menu />
           <AppRoutes />
           <Footer />
         </CartProvider>

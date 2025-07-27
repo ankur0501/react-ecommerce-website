@@ -15,12 +15,8 @@ export default function AppRoutes() {
       <Route exact path="/order-success" component={OrderSuccess} />
 
       {/* More specific route first */}
-      <Route
-        exact
-        path="/products/:category/:productId"
-        component={ProductDetails}
-      />
       <Route exact path="/products/:category" component={Products} />
+      <Route exact path="/:category/:productId" component={ProductDetails} />
 
       {/* 404 Catch-all */}
       <Route component={NotFound} />
